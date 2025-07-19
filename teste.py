@@ -2,7 +2,7 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from googletrans import Translator
 
-def analisar_emocao(texto):
+def (texto):
     
     tradutor = Translator()
     texto_traduzido = tradutor.translate(texto, dest='en').text
